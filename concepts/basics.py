@@ -3,7 +3,7 @@
 import boto3
 
 # creating a session for aws_profile
-session = boto3.session.Session(profile_name="shawn")
+session = boto3.session.Session(profile_name="shawn-personal")
 
 # creating resource & client for ec2
 ec2_res = session.resource(service_name= "ec2", region_name = "us-east-1")
