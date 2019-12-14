@@ -1,7 +1,7 @@
 #!/usr/local/env python
 
 import boto3
-session = boto3.session.Session(profile_name = "shawn")
+session = boto3.session.Session(profile_name = "user")
 ec2_res = session.resource(service_name="ec2", region_name="us-east-1")
 
 #print dir(ec2_res)
